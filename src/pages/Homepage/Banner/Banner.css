@@ -1,0 +1,35 @@
+/* .banner {
+  height: 50vh;
+  position: relative;
+} */
+.banner > img {
+  width: 100%;
+  height: 90vh;
+}
+.banner-search {
+  display: flex;
+  flex-direction: column;
+}
+.banner-searchButton {
+  color: #ff7779 !important;
+  font-weight: 700 !important;
+  background-color: white;
+  text-transform: inherit !important;
+}
+.info-button {
+  background-color: #ff7779 !important;
+  color: white !important;
+  font-weight: 700 !important;
+  background-color: white;
+  text-transform: inherit !important;
+}
+.banner-info {
+  color: white;
+  overflow-wrap: break-word;
+  padding: 100px 0px 50px 50px;
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  /* background-color: black;
+  opacity: 0.5; */
+}
